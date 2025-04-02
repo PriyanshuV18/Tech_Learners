@@ -21,8 +21,8 @@ body {
     width: 100vw;
     position: relative;
     background-color: rgb(21, 21, 21);
-    overflow: hidden;
-    
+    overflow-x: hidden;
+    overflow-y: scroll;
     
 }
 
@@ -460,16 +460,6 @@ footer {
 }
 
 
-@media screen and (max-width: 431px) {
-    .menu-toggle {
-        display: block; 
-    }
-
-    .rightsection {
-        display: none;
-    }
-}
-
 
   @media screen and (max-width: 1025px) {
     .contents {
@@ -522,7 +512,7 @@ footer {
 
 }
   
-  @media screen and (max-width: 431px) {
+  @media screen and (max-width: 541px) {
     .rightsection{
         display: none;
     }
