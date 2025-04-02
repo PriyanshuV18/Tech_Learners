@@ -521,8 +521,8 @@ footer {
     }
     
     .contents{
-        top: 90px;
-    height: 330px;
+        top: 15vh;
+        height: 50vh;
     }
     .contentbutton{
         height: 50px;
@@ -557,12 +557,13 @@ footer {
     }
     .creatorinfo {
         max-width: 90vw;
+        margin-top: 3vh;
       }
       .creatorinfo2{
         top: 26vh;
       }
       .contributetext{
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         width: 98vw;
        
     }
