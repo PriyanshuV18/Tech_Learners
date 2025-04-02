@@ -561,6 +561,11 @@ footer {
       .creatorinfo2{
         top: 26vh;
       }
+      .contributetext{
+        font-size: 1.05rem;
+        width: 98vw;
+       
+    }
         
   }
   
@@ -596,4 +601,5 @@ footer {
     .creatorinfo2 h1{
         font-size: 1.3rem;
     }
+    
   }
