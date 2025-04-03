@@ -21,8 +21,7 @@ body {
     width: 100vw;
     position: relative;
     background-color: rgb(21, 21, 21);
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
     
 }
 
@@ -34,7 +33,7 @@ body {
     height: 100%;
     width: 100%;
     background: url(assets/young-woman-studying-japanesestyle-room_1282444-98678.avif);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center ;
     opacity: 0.7;
@@ -227,7 +226,7 @@ nav {
 
 .restitle {
     width: 480px;
-    margin: 91px 0px 0px 120px;
+    /* margin: 91px 0px 0px 120px; */
     font-size: 42px;
     background-color: rgba(82 82 82 / 0.66);
     border-radius: 38px;
@@ -411,6 +410,7 @@ footer {
 .sidebar.show {
     left: 0; 
 }
+
 .creatorinfo2{
   border: 10px solid;
   border-image: linear-gradient(90deg, #ff6ec4, #7873f5, #42e695, #ff6ec4) 1;
@@ -538,11 +538,12 @@ footer {
         display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 37px;
-      margin-top: 35px;
+      gap: 4vh;
+      margin-top: 6vh;
     }
     .restitle {
-      margin: 71px 0px 41px 6px;
+      /* margin: 71px 0px 41px 6px; */
+      margin-top: 3vh;
       font-size: 2rem;
       width: 88vw;
     }
@@ -560,7 +561,7 @@ footer {
         margin-top: 3vh;
       }
       .creatorinfo2{
-        top: 26vh;
+        top: 23vh;
       }
       .contributetext{
         font-size: 1.05rem;
@@ -570,9 +571,9 @@ footer {
         
   }
   
-  @media screen and (max-width: 391px) {
+  @media screen and (max-width: 395px) {
     .creatorinfo {
-      margin-top: 31px;
+      margin-top: 4vh;
       max-width: 85vw;
     }
   }
@@ -597,7 +598,7 @@ footer {
     }
     .creatorinfo2{
         width: 90vw;
-        top: 18vh;
+        top: 17vh;
     }
     .creatorinfo2 h1{
         font-size: 1.3rem;
