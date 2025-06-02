@@ -1,22 +1,22 @@
 
        
-        function createSnowflake() {
-            const snowflake = document.createElement('div');
-            snowflake.classList.add('snowflake');
-            snowflake.textContent = '❄'; 
-            snowflake.style.left = Math.random() * 100 + 'vw'; 
-            snowflake.style.animationDuration = Math.random() * 3 + 2 + 's'; 
-            snowflake.style.fontSize = Math.random() * 10 + 10 + 'px'; 
-            document.body.appendChild(snowflake); 
+        // function createSnowflake() {
+        //     const snowflake = document.createElement('div');
+        //     snowflake.classList.add('snowflake');
+        //     snowflake.textContent = '❄'; 
+        //     snowflake.style.left = Math.random() * 100 + 'vw'; 
+        //     snowflake.style.animationDuration = Math.random() * 3 + 2 + 's'; 
+        //     snowflake.style.fontSize = Math.random() * 10 + 10 + 'px'; 
+        //     document.body.appendChild(snowflake); 
 
             
-            setTimeout(() => {
-                snowflake.remove();
-            }, 5000);
-        }
+        //     setTimeout(() => {
+        //         snowflake.remove();
+        //     }, 5000);
+        // }
 
         
-        setInterval(createSnowflake, 200);
+        // setInterval(createSnowflake, 200);
        
         const menuToggle = document.getElementById('menu-toggle');
         const navMenu = document.getElementById('sidebar');
